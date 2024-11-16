@@ -49,7 +49,7 @@ const phoneNumber = "254769047082"
 
 function sendToWhatsApp() {
     const cart =JSON.parse(localStorage.getItem('cart')) || []
-    const baseUrl = "https://yourwebsite.com/";//Replace with your website URL
+    const baseUrl = "https://arap-tum.github.io/madukani/";//Replace with your website URL
 
 
     let message = 'Hello I would like to order:\n\n';
