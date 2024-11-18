@@ -343,6 +343,7 @@ menu li .text {
                 align-items: flex-start;
                 padding: 2px;
                 overflow-x: hidden;
+                width: 100svw;
             }
      
             .search-bar {
@@ -369,6 +370,7 @@ menu li .text {
                 align-items: flex-start;
                 padding: 2px;
                 overflow-x: hidden;
+                width: 100svw;
             }
            
             .search-bar {
