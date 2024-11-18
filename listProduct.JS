@@ -18,7 +18,7 @@ function addDataToHTML() {
             newProduct.classList.add('item');
 
             let theProduct = document.createElement('a');
-            theProduct.href = window.location.pathname.replace('index.html, '')+'detail.html?id=' + product.id;
+            theProduct.href = './detail.html?id' + product.id;
 
             theProduct.innerHTML = `
                 <img src="${product.image}" alt="">
