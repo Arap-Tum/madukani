@@ -1,16 +1,19 @@
  @media screen {
     
 } 
-
-
- body {
+html body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+ body {
+    
     background-color: #f7f7f7;
     box-sizing: border-box;
     font-family: "inter", sans-serif;
-    max-width: 100vw;
-    overflow-x: hidden; 
+    max-width: 100vw; 
 } 
 
 header {
@@ -321,13 +324,13 @@ menu li .text {
         /* small screens(phones) */
         @media (max-width:740px){
             header {
-                width: 100%;
+                width: 100vw;
             }
             .top-bar {
                 align-items: flex-start;
                 padding: 2px;
-                overflow-x: hidden;
-                width: 100%;
+             
+                width: 100vw;
             }
             
             .search-bar {
@@ -338,7 +341,7 @@ menu li .text {
                 font-size: 12px;
             }
             .cart {
-                left: 50px; /* Adjust for smaller screens */
+                left: 10%; /* Adjust for smaller screens */
                 top: 5px;
             }
         }
@@ -346,12 +349,11 @@ menu li .text {
         /* small screens(phones) */
         @media (max-width:480px){
             header {
-                width: 100%;
+                width: 100vw;
             }
             .top-bar {
-                align-items: flex-start;
+                
                 padding: 2px;
-                overflow-x: hidden;
                 width: 100%;
             }
      
@@ -363,12 +365,12 @@ menu li .text {
                 font-size: 10px;
             }
             .search-bar input {
-                font-size: 12px;
+                font-size: 10px;
             }
             
             .cart {
-                left: 50px; /* Adjust for smaller screens */
-                top: 5px;
+                left: 15%; /* Adjust for smaller screens */
+                /* top: 5px; */
             }
         }
  
@@ -376,17 +378,17 @@ menu li .text {
         /* small screens(phones) */
         @media (max-width:354px){
             header {
-                width: 100%;
+                width: 100vw;
             }
             .top-bar {
-                align-items: flex-start;
+            
                 padding: 2px;
-                overflow-x: hidden;
+                
                 width: 100%;
             }
            
             .search-bar {
-                padding-right: 0;
+              
                 width: 60%;
 
             }
@@ -394,7 +396,7 @@ menu li .text {
                 font-size: 12px;
             }
             .search-bar input {
-                font-size: 5px;
+                font-size: 8px;
             }
 
             
@@ -471,16 +473,7 @@ menu li .text {
 
 
         }
-    }
-
-
-
-      
-
-
-
-
- 
+    } 
 
 /* Go back arrow */
 
