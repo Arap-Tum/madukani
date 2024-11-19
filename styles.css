@@ -318,10 +318,14 @@ menu li .text {
 }
         /* small screens(phones) */
         @media (max-width:740px){
+            header {
+                width: 100dvw;
+            }
             .top-bar {
                 align-items: flex-start;
                 padding: 2px;
                 overflow-x: hidden;
+                width: 100dvw;
             }
             
             .search-bar {
@@ -339,11 +343,14 @@ menu li .text {
 
         /* small screens(phones) */
         @media (max-width:480px){
+            header {
+                width: 100dvw;
+            }
             .top-bar {
                 align-items: flex-start;
                 padding: 2px;
                 overflow-x: hidden;
-                width: 100svw;
+                width: 100dvw;
             }
      
             .search-bar {
@@ -366,6 +373,9 @@ menu li .text {
 
         /* small screens(phones) */
         @media (max-width:354px){
+            header {
+                width: 100dvw;
+            }
             .top-bar {
                 align-items: flex-start;
                 padding: 2px;
